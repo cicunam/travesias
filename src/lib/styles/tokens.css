@@ -61,9 +61,5 @@
 	--color-eje5-dark: var(--color-cyan-dark);
 	--color-eje5-light: var(--color-cyan-light);
 
-	/* TIPOGRAFIA */
-
-  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-
 }
 

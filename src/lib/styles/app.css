@@ -7,16 +7,26 @@
 
 /* Importación de fuentes */
 
-@import url('https://fonts.googleapis.com/css2??family=Inter:wght@400;500;600;700;900&display=swap');
+/* @import url('https://fonts.googleapis.com/css2??family=Inter:wght@400;500;600;700;900&display=swap'); */
 
 @import './reset.css';
 @import './tokens.css';
 
 /* Importar aquí los estilos de los elementos */
 
+/* Tipografía */
+
+@font-face {
+  font-family: 'SF Pro'; /* Aquí defines el nombre exacto que usarás */
+  src: url('./fonts/SF-Pro.ttf') format('truetype');
+  font-weight: 400;
+}
+
+/* Regals generales */
+
 body {
 
-	font-family: var(--font-family);
+	font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
 
 }	
 
