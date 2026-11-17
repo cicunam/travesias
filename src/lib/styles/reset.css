@@ -1,0 +1,13 @@
+/*
+  Travesías
+	Estilo / Sobrescribir estilos predeterminados (Reset)
+  José Esteva <josesteva@cic.unam.mx>
+*/
+
+*, *::before, *::after {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
+}

@@ -1,0 +1,22 @@
+
+/*
+  Travesías
+	Estilo / Reglas generales
+	José Esteva <josesteva@cic.unam.mx>
+*/
+
+/* Importación de fuentes */
+
+@import url('https://fonts.googleapis.com/css2??family=Inter:wght@400;500;600;700;900&display=swap');
+
+@import './reset.css';
+@import './tokens.css';
+
+/* Importar aquí los estilos de los elementos */
+
+body {
+
+	font-family: var(--font-family);
+
+}	
+

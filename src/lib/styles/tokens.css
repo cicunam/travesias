@@ -1,0 +1,69 @@
+/*
+  Travesías
+	Estilo / Variables de diseño (Tokens)
+	José Esteva <josesteva@cic.unam.mx>
+*/
+
+:root {
+
+	/* COLORES */
+
+	--color-white: #FFFFFF;
+	--color-black: #101C30;
+
+	--color-mute: #607086;
+	--color-mute-darker: #25282E;
+	--color-mute-dark: #42626A;
+	--color-mute-light: #CBD5E1;
+	--color-mute-lighter: #E9EEF4;
+
+	--color-rose: #E8335E;
+	--color-rose-dark: #9F1239;
+	--color-rose-light: #FDF2F5;
+
+	--color-lime: #A2C617;
+	--color-lime-dark: #4D6203;
+	--color-lime-light: #F7FBE8;
+
+	--color-blue: #005CA9;
+	--color-blue-dark: #002B54;
+	--color-blue-light: #EAF3FB;
+	--color-blue-lighter: #F5F9FD;
+
+	--color-purple: #831F82;
+	--color-purple-dark: #581057;
+	--color-purple-light: #FAF2FA;
+
+	--color-cyan: #63C3D1;
+	--color-cyan-dark: #0E7490;
+	--color-cyan-light: #F0FAFC;
+
+	/* Alias de colores */
+	/* NOTA: Probablemente no sea necesario utilizar alias pero quiero determinar eso sobre la práctica. */
+
+	--color-eje1: var(--color-rose);
+	--color-eje1-dark: var(--color-rose-dark);
+	--color-eje1-light: var(--color-rose-light);
+
+	--color-eje2: var(--color-lime);
+	--color-eje2-dark: var(--color-lime-dark);
+	--color-eje2-light: var(--color-lime-light);
+
+	--color-eje3: var(--color-blue);
+	--color-eje3-dark: var(--color-blue-dark);
+	--color-eje3-light: var(--color-blue-light);
+
+	--color-eje4: var(--color-purple);
+	--color-eje4-dark: var(--color-purple-dark);
+	--color-eje4-light: var(--color-purple-light);
+	
+	--color-eje5: var(--color-cyan);
+	--color-eje5-dark: var(--color-cyan-dark);
+	--color-eje5-light: var(--color-cyan-light);
+
+	/* TIPOGRAFIA */
+
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+
+}
+
