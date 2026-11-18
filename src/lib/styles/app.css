@@ -14,14 +14,6 @@
 
 /* Importar aquí los estilos de los elementos */
 
-/* Tipografía */
-
-@font-face {
-  font-family: 'SF Pro'; /* Aquí defines el nombre exacto que usarás */
-  src: url('./fonts/SF-Pro.ttf') format('truetype');
-  font-weight: 400;
-}
-
 /* Regals generales */
 
 body {

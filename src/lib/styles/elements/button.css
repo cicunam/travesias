@@ -1,0 +1,16 @@
+/*
+  Travesías
+	Elementos / Button (Botón)
+	José Esteva <josesteva@cic.unam.mx>
+*/
+
+/* Predeterminado */
+.button.ghost {
+
+    font: var(--font-button-heavy);
+    letter-spacing: 4.4%;
+
+
+
+}
+

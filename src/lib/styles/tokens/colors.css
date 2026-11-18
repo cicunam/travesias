@@ -1,6 +1,6 @@
 /*
   Travesías
-	Estilo / Variables de diseño (Tokens)
+	Variables de diseño (Tokens) - Colores
 	José Esteva <josesteva@cic.unam.mx>
 */
 
@@ -11,11 +11,11 @@
 	--color-white: #FFFFFF;
 	--color-black: #101C30;
 
-	--color-mute: #607086;
-	--color-mute-darker: #25282E;
-	--color-mute-dark: #42626A;
-	--color-mute-light: #CBD5E1;
-	--color-mute-lighter: #E9EEF4;
+	--color-muted: #607086;
+	--color-muted-darker: #25282E;
+	--color-muted-dark: #42626A;
+	--color-muted-light: #CBD5E1;
+	--color-muted-lighter: #E9EEF4;
 
 	--color-rose: #E8335E;
 	--color-rose-dark: #9F1239;
@@ -62,4 +62,6 @@
 	--color-eje5-light: var(--color-cyan-light);
 
 }
+
+
 
