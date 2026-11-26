@@ -1,0 +1,56 @@
+/*
+  Travesías
+	Estilos - Tokens - Tipografías
+	José Esteva <josesteva@cic.unam.mx> (CREACIÓN)
+*/
+
+:root {
+
+	--font-sans: -apple-system, BlinkMacSystemFont, 'SF Pro', 'Inter', 'Segoe UI', Roboto, sans-serif;
+  
+	--font-weight-heavy: 900;
+	--font-weight-bold: 700;
+	--font-weight-semibold: 600;
+	--font-weight-medium: 500;
+	--font-weight-default: 400;
+  
+	--font-title-huge-size: 52px;
+	--font-title-huge-height: 52px;
+	--font-title-huge-tracking: -0.73px; 
+	--font-title-large-size: 36px;
+	--font-title-large-height: 40px;
+	--font-title-large-tracking: -0.55px;  
+	--font-title-medium-size: 24px;
+	--font-title-medium-height: 32px;
+	--font-title-medium-tracking: -0.36px;  
+	--font-title-small-size: 21px;
+	--font-title-small-height: 28.4px;
+	--font-title-small-tracking: -0.7px;  
+	--font-title-tiny-size: 19px;
+	--font-title-tiny-height: 26.6px;
+	--font-title-tiny-tracking: -0.68px;
+  
+	--font-text-tracking: normal;  
+	--font-text-large-size: 14px;
+	--font-text-large-height: 22.4px;  
+	--font-text-medium-size: 13px;
+	--font-text-medium-height: 20px;  
+	--font-text-small-size: 12px;
+	--font-text-small-height: 17.4px;  
+	--font-text-tiny-size: 11px;
+	--font-text-tiny-height: 16px;
+	--font-text-tiny-tracking: 0.1px;
+  
+	--font-button-medium-size: 13px;
+	--font-button-medium-height: 22px;
+	--font-button-medium-tracking: -0.25px;
+	--font-button-small-size: 12px;
+	--font-button-small-height: 18px;
+	--font-button-small-tracking: -0.25px;
+
+	/* Ajustes que se utilizaron en el diseño */
+
+	--font-button-medium-heavy-tracking: 0.57px;
+	--font-button-medium-bold-tracking: 0.16px;
+  
+}

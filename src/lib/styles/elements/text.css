@@ -1,0 +1,64 @@
+/*
+  Travesías
+	Estilo - Elementos - Textos
+	José Esteva <josesteva@cic.unam.mx>
+*/
+
+.text {
+
+	/* PREDETERMINADO */
+
+	font-size: var(--font-text-medium-size);
+	line-height: var(--font-text-medium-height);
+	letter-spacing: var(--font-text-tracking);
+	font-weight: var(--font-weight-regular);
+
+	/* TAMAÑOS */
+
+	&.large {
+		font-size: var(--font-text-large-size);
+		line-height: var(--font-text-large-height);
+		letter-spacing: var(--font-text-tracking);
+	}
+
+	&.medium {
+		font-size: var(--font-text-medium-size);
+		line-height: var(--font-text-medium-height);
+		letter-spacing: var(--font-text-tracking);
+	}
+
+	&.small {
+		font-size: var(--font-text-small-size);
+		line-height: var(--font-text-small-height);
+		letter-spacing: var(--font-text-tracking);
+	}
+
+	&.tiny {
+		font-size: var(--font-text-tiny-size);
+		line-height: var(--font-text-tiny-height);
+		letter-spacing: var(--font-text-tiny-tracking);
+	}
+
+	/* PESOS */
+
+	&.heavy {
+		font-weight: var(--font-weight-heavy);
+	}
+
+	&.bold {
+		font-weight: var(--font-weight-bold);
+	}
+
+	&.semibold {
+		font-weight: var(--font-weight-semibold);
+	}
+
+	&.medium {
+		font-weight: var(--font-weight-medium);
+	}
+
+	&.default {
+		font-weight: var(--font-weight-default);
+	}	
+
+}

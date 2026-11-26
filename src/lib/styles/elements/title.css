@@ -1,0 +1,70 @@
+/*
+  Travesías
+	Estilos - Elementos - Titulos
+	José Esteva <josesteva@cic.unam.mx>
+*/
+
+.title {
+
+	/* PREDETERMINADO */
+
+	font-size: var(--font-title-medium-size);
+	line-height: var(--font-title-medium-height);
+	letter-spacing: var(--font-title-tracking);
+	font-weight: var(--font-weight-regular);
+
+	/* TAMAÑOS */
+
+	&.huge {
+		font-size: var(--font-title-huge-size);
+		line-height: var(--font-title-huge-height);
+		letter-spacing: var(--font-title-huge-tracking);
+	}
+
+	&.large {
+		font-size: var(--font-title-large-size);
+		line-height: var(--font-title-large-height);
+		letter-spacing: var(--font-title-large-tracking);
+	}
+
+	&.medium {
+		font-size: var(--font-title-medium-size);
+		line-height: var(--font-title-medium-height);
+		letter-spacing: var(--font-title-medium-tracking);
+	}
+
+	&.small {
+		font-size: var(--font-title-small-size);
+		line-height: var(--font-title-small-height);
+		letter-spacing: var(--font-title-small-tracking);
+	}
+
+	&.tiny {
+		font-size: var(--font-title-tiny-size);
+		line-height: var(--font-title-tiny-height);
+		letter-spacing: var(--font-title-tiny-tracking);
+	}
+
+	/* PESOS */
+
+	&.heavy {
+		font-weight: var(--font-weight-heavy);
+	}
+
+	&.bold {
+		font-weight: var(--font-weight-bold);
+	}
+
+	&.semibold {
+		font-weight: var(--font-weight-semibold);
+	}
+
+	&.medium {
+		font-weight: var(--font-weight-medium);
+	}
+
+	&.default {
+		font-weight: var(--font-weight-default);
+	}	
+
+}

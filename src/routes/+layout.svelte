@@ -5,9 +5,13 @@
 -->	
 
 <script>
+
+	import '#lib/styles/app.css';
+
 	import favicon from '#lib/assets/favicon.ico';
 
 	let { children } = $props();
+
 </script>
 
 <svelte:head>

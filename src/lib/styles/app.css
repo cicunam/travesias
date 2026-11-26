@@ -5,28 +5,33 @@
 	José Esteva <josesteva@cic.unam.mx>
 */
 
-/* Importación de fuentes */
+/* Tipografías */
 
-/* @import url('https://fonts.googleapis.com/css2??family=Inter:wght@400;500;600;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2??family=Inter:wght@400;500;600;700;900&display=swap');
 
-@import './reset.css';
-@import './tokens.css';
+/* Variables de diseño */
 
-/* Importar aquí los estilos de los elementos */
+@import './tokens/colors.css';
+@import './tokens/fonts.css';
 
-/* Tipografía */
+/* Elementos */
 
-@font-face {
-  font-family: 'SF Pro'; /* Aquí defines el nombre exacto que usarás */
-  src: url('./fonts/SF-Pro.ttf') format('truetype');
-  font-weight: 400;
+@import './elements/text.css';
+
+/* RESET */
+
+*, *::before, *::after {
+
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+
 }
 
-/* Regals generales */
+/* Estilos generales */
 
 body {
 
-	font-family: 'SF Pro', -apple-system, BlinkMacSystemFont, sans-serif;
+	font-family: var(--font-sans);
 
 }	
-
